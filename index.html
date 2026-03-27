@@ -13,8 +13,8 @@
   <nav>
     <a href="#top" class="nav-logo">Althörnli</a>
     <ul class="nav-links">
-      <li><a href="#hof">Über den Hof</a></li>
-      <li><a href="#verweilen">Verweilen</a></li>
+      <li><a href="#hof">Place</a></li>
+      <li><a href="#verweilen">To Do's</a></li>
       <li><a href="#produkte">Produkte</a></li>
       <li><a href="#news">News</a></li>
       <li><a href="#kontakt">Kontakt</a></li>
@@ -70,7 +70,7 @@
         </div>
         <div class="verweilen-card-body">
           <h3>Veranstaltungen</h3>
-          <p>Sommerfeste, Nachtessen unter freiem Himmel, Holztage – wir laden ein, wenn der Hof zum besonderen Anlass wird. Klein, persönlich, gut.</p>
+          <p>Sommerfeste, Nachtessen unter freiem Himmel, Degustationen – wir laden ein, wenn der Hof zum besonderen Anlass wird. Wer kommt, isst gut.</p>
         </div>
       </div>
 
@@ -89,7 +89,7 @@
           <img src="images/verweilen-hottub.jpg" alt="Hot Tub Althörnli">
         </div>
         <div class="verweilen-card-body">
-          <h3>Wellness</h3>
+          <h3>Savoir Vivre</h3>
           <p>Natur, Lebensmittel vom Hof, einen Hot-Tub und bald eine Sauna – nach einem langen Tag draussen, bei jedem Wetter.</p>
         </div>
       </div>
@@ -99,8 +99,8 @@
           <img src="images/verweilen-sommerbeiz.jpg" alt="Sommerbeiz Althörnli">
         </div>
         <div class="verweilen-card-body">
-          <h3>Sommerbeiz</h3>
-          <p>Im Sommer öffnen wir die Hofküche. Einfach, saisonal, aus dem Garten und vom Hof. Wer kommt, isst gut.</p>
+          <h3>Mitmachen</h3>
+          <p>Gerne heissen wir Alle willkommen, um in der Natur Zeit zu verbringen und auch mitzumachen</p>
         </div>
       </div>
 
@@ -110,7 +110,7 @@
         </div>
         <div class="verweilen-card-body">
           <h3>Team Events</h3>
-          <p>Der Hof als Rahmen für Gruppen – gemeinsames Arbeiten, Essen, Erleben.</p>
+          <p>Der Hof als Rahmen für Gruppen – gemeinsames Arbeiten, Essen, Erleben. Melde dich und wir organisieren etwas</p>
         </div>
       </div>
 
@@ -192,7 +192,14 @@
       <span class="eyebrow">Kontakt</span>
       <h2>Melde dich.</h2>
       <p>Fragen, Anfragen, Interesse am Hof – wir freuen uns über Nachrichten.</p>
-      <a href="mailto:je.pellaton@icloud.com" class="btn">je.pellaton@icloud.com</a>
+      <a href="#" class="btn" id="mail-btn">Nachricht schreiben</a>
+      <script>
+        document.getElementById('mail-btn').addEventListener('click', function(e) {
+          e.preventDefault();
+          var u = 'je.pellaton'; var d = 'icloud.com';
+          window.location.href = 'mailto:' + u + '@' + d;
+        });
+      </script>
     </div>
   </div>
 
