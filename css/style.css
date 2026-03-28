@@ -223,9 +223,19 @@ h2 {
   margin-bottom: 3rem;
 }
 
+.news-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .news-flyer {
   display: flex;
-  justify-content: flex-start;
 }
 
 /* NEWS-BILD: Breite hier anpassen falls gewünscht */
@@ -233,6 +243,14 @@ h2 {
   max-width: 420px;
   width: 100%;
   display: block;
+}
+
+.news-desc {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.55;
+  max-width: 420px;
 }
 
 /* ─── VERWEILEN ───────────────────────── */
