@@ -235,6 +235,47 @@ h2 {
   display: block;
 }
 
+/* NEWS-CIDER-CARD */
+.news-cider-card {
+  margin-top: 3rem;
+  background: #d4522a;
+  color: #1a0f00;
+  max-width: 420px;
+  padding: 2.5rem 2rem;
+  font-family: var(--font-body);
+  text-align: center;
+}
+
+.news-cider-title {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #1a0f00;
+}
+
+.news-cider-entry {
+  margin-bottom: 1.6rem;
+}
+
+.news-cider-entry strong {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+  color: #1a0f00;
+}
+
+.news-cider-entry p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: #1a0f00;
+}
+
 /* ─── VERWEILEN ───────────────────────── */
 .verweilen-header {
   max-width: 560px;
