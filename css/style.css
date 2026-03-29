@@ -225,22 +225,25 @@ h2 {
 
 .news-items {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   gap: 2.5rem;
 }
 
 .news-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 420px;
+  max-width: 100%;
 }
 
 .news-flyer {
-  display: flex;
+  width: 100%;
 }
 
 /* NEWS-BILD: Breite hier anpassen falls gewünscht */
 .news-flyer img {
-  max-width: 420px;
   width: 100%;
   display: block;
 }
@@ -250,7 +253,8 @@ h2 {
   font-size: 0.8rem;
   color: var(--muted);
   line-height: 1.55;
-  max-width: 420px;
+  width: 100%;
+  text-align: center;
 }
 
 /* ─── VERWEILEN ───────────────────────── */
