@@ -226,14 +226,13 @@ h2 {
 .news-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: start;
 }
 
 .news-item {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .news-flyer {
@@ -243,6 +242,7 @@ h2 {
 
 .news-flyer img {
   width: 100%;
+  height: auto;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -250,10 +250,7 @@ h2 {
 .news-item:hover .news-flyer img { transform: scale(1.03); }
 
 .news-caption {
-  padding: 1rem 0.25rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0.9rem 0 0;
   text-align: center;
 }
 
@@ -264,12 +261,12 @@ h2 {
   color: var(--brown);
   font-weight: 500;
   display: block;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
 }
 
 .news-title {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--dark);
   display: block;
