@@ -224,13 +224,13 @@ h2 {
 }
 
 .news-items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  align-items: start;
+  columns: 3;
+  column-gap: 2rem;
 }
 
 .news-item {
+  break-inside: avoid;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -445,7 +445,7 @@ footer {
   .verweilen-card:nth-child(3),
   .verweilen-card:nth-child(4),
   .verweilen-card:nth-child(5) { grid-column: span 3; }
-  .news-items { grid-template-columns: repeat(2, 1fr); }
+  .news-items { columns: 2; }
 }
 
 @media (max-width: 720px) {
@@ -458,7 +458,7 @@ footer {
   .verweilen-grid { grid-template-columns: 1fr; }
   .verweilen-card:nth-child(n) { grid-column: span 1; }
   .produkte-grid { grid-template-columns: repeat(2, 1fr); }
-  .news-items { grid-template-columns: 1fr; }
+  .news-items { columns: 1; }
   .kontakt-band { padding: 4.5rem 1.5rem; }
   footer { flex-direction: column; gap: 0.4rem; text-align: center; padding: 1.5rem; }
 }
