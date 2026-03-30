@@ -165,7 +165,7 @@ h2 {
 }
 
 .section-band {
-  background-color: var(--white);
+  background-color: var(--cream);
   padding: 7rem 0;
 }
 
@@ -302,7 +302,7 @@ h2 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--cream);
 }
 
 .verweilen-card-img { overflow: hidden; flex-shrink: 0; }
