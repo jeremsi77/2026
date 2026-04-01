@@ -155,6 +155,12 @@ nav {
   line-height: 1.65;
 }
 
+/* ─── SPOTIFY ────────────────────────── */
+.spotify-band {
+  padding: 0 2.75rem 3rem;
+  background-color: var(--cream);
+}
+
 /* ─── SHARED ──────────────────────────── */
 .eyebrow {
   font-size: 0.68rem;
@@ -506,6 +512,7 @@ footer {
   .produkte-grid { grid-template-columns: repeat(2, 1fr); }
   .news-items { flex-direction: column; }
   .news-col { gap: 1.5rem; }
+  .spotify-band { padding: 0 1.5rem 3rem; }
   .kontakt-band { padding: 4.5rem 1.5rem; }
   footer { flex-direction: column; gap: 0.4rem; text-align: center; padding: 1.5rem; }
 }
