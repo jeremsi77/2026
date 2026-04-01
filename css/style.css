@@ -159,6 +159,15 @@ nav {
 .spotify-band {
   padding: 0 2.75rem 3rem;
   background-color: var(--cream);
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spotify-band iframe {
+  width: 340px;
+  flex-shrink: 0;
 }
 
 /* ─── SHARED ──────────────────────────── */
@@ -513,6 +522,7 @@ footer {
   .news-items { flex-direction: column; }
   .news-col { gap: 1.5rem; }
   .spotify-band { padding: 0 1.5rem 3rem; }
+  .spotify-band iframe { width: 100%; }
   .kontakt-band { padding: 4.5rem 1.5rem; }
   footer { flex-direction: column; gap: 0.4rem; text-align: center; padding: 1.5rem; }
 }
