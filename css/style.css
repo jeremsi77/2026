@@ -155,21 +155,6 @@ nav {
   line-height: 1.65;
 }
 
-/* ─── SPOTIFY ────────────────────────── */
-.spotify-band {
-  padding: 0 2.75rem 3rem;
-  background-color: var(--cream);
-  max-width: 1240px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.spotify-band iframe {
-  width: 340px;
-  flex-shrink: 0;
-}
-
 /* ─── SHARED ──────────────────────────── */
 .eyebrow {
   font-size: 0.68rem;
@@ -293,6 +278,8 @@ h2 {
 }
 
 .news-item:hover .news-flyer img { transform: scale(1.03); }
+
+.news-flyer--spotify { overflow: visible; }
 
 .news-caption {
   padding: 0.9rem 0 0;
@@ -521,8 +508,6 @@ footer {
   .produkte-grid { grid-template-columns: repeat(2, 1fr); }
   .news-items { flex-direction: column; }
   .news-col { gap: 1.5rem; }
-  .spotify-band { padding: 0 1.5rem 3rem; }
-  .spotify-band iframe { width: 100%; }
   .kontakt-band { padding: 4.5rem 1.5rem; }
   footer { flex-direction: column; gap: 0.4rem; text-align: center; padding: 1.5rem; }
 }
